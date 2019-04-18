@@ -11,3 +11,19 @@
   tmux list-sessions
   5. Attach a running session  
   tmux a -t kkpalwiki
+
+
+
+* Kernel version 
+  * uname -a
+* Disk capacity
+  * df -ah
+* Manage service
+  * service <servicename> status (old)
+  * systemctl status <servicename>
+* Size of folder
+  * du -sh <folder>
+* Check open ports, network services
+  * netstat
+* CPU usage of process
+  * ps -aux | grep <processname>
