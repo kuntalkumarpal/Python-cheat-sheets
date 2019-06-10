@@ -27,3 +27,6 @@
   * netstat
 * CPU usage of process
   * ps -aux | grep <processname>
+
+* Syntax highlighting of Vim editor
+  * syntax enable in ~/.vimrc
