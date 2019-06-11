@@ -31,5 +31,22 @@
 * Syntax highlighting of Vim editor
   * syntax enable in ~/.vimrc
 
+
+
+### Compress Decompress
+* ZIP
+    * Directory = zip -r archive.zip dir_to_zip
 * UNZIP
-   * unzip x.zip -d /path/to/new/dir
+    * unzip x.zip -d /path/to/new/dir
+* TAR
+  * tar -zcvf archive_name.tar </path/to/directory_to_compress>
+  * tar -zxvf archive_name.tar
+
+
+### Vim commands for MAC
+* Pageup/PageDown - Shit + fn + up/down key
+* First line in file - gg
+* Last line in file - G
+* Start of line - 0
+* Undo last changes - u
+* tabspace change - set ts=4
