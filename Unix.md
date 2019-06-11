@@ -30,3 +30,6 @@
 
 * Syntax highlighting of Vim editor
   * syntax enable in ~/.vimrc
+
+* UNZIP
+   * unzip x.zip -d /path/to/new/dir
