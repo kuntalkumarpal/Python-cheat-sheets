@@ -50,3 +50,6 @@
 * Start of line - 0
 * Undo last changes - u
 * tabspace change - set ts=4
+
+### Distinct
+cat train.jsonl | sort | uniq > trainUnique.jsonl
