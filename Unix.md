@@ -58,6 +58,8 @@ cat train.jsonl | sort | uniq > trainUnique.jsonl
 ### Wget
 * [In Terminal and other uses](https://gist.github.com/jasperf/17e9572b74f052b8fa12daca07ba8565)
 * [In Jupyter](https://pypi.org/project/wget/)
+```python
 import wget
 url = 'http://www.futurecrew.com/skaven/song_files/mp3/razorback.mp3'
 filename = wget.download(url)
+```
