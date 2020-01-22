@@ -62,4 +62,8 @@ cat train.jsonl | sort | uniq > trainUnique.jsonl
 import wget
 url = 'http://www.futurecrew.com/skaven/song_files/mp3/razorback.mp3'
 filename = wget.download(url)
+
+or
+
+!wget http://nlp.stanford.edu/data/glove.6B.zip #If fails install wget using brew install wget
 ```
