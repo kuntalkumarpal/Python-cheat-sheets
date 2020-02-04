@@ -41,7 +41,10 @@
 * TAR
   * tar -zcvf archive_name.tar </path/to/directory_to_compress>
   * tar -zxvf archive_name.tar
-
+* RAR in mac
+```python
+  unrar x <.../abc.rar>
+```
 
 ### Vim commands for MAC
 * Pageup/PageDown - Shit + fn + up/down key
