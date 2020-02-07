@@ -70,3 +70,9 @@ or
 
 !wget http://nlp.stanford.edu/data/glove.6B.zip #If fails install wget using brew install wget
 ```
+
+### Grep
+```python
+ls |grep -v <text> #Invert selection, exclude <text> from output
+
+```
